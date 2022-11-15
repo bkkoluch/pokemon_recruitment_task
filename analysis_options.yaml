@@ -1,0 +1,67 @@
+analyzer:
+  exclude:
+    - lib/generated_plugin_registrant.dart
+    - lib/**.g.dart
+    - lib/**.freezed.dart
+
+  errors:
+    missing_required_param: error
+    invalid_use_of_visible_for_testing_member: error
+    unused_import: error
+    always_use_package_imports: error
+    unawaited_futures: error
+    # This is ignored because it pops out when we want to add JsonKey to freezed class
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    - always_put_required_named_parameters_first
+    - always_require_non_null_named_parameters
+    - always_declare_return_types
+    - always_use_package_imports
+    - prefer_asserts_in_initializer_lists
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - avoid_print
+    - await_only_futures
+    - sort_pub_dependencies
+    - unawaited_futures
+    - require_trailing_commas
+    - cancel_subscriptions
+    - close_sinks
+    - prefer_final_in_for_each
+    - avoid_empty_else
+    - avoid_relative_lib_imports
+    - avoid_returning_null_for_future
+    - avoid_slow_async_io
+    - avoid_types_as_parameter_names
+    - control_flow_in_finally
+    - empty_statements
+    - iterable_contains_unrelated_type
+    - list_remove_unrelated_type
+    - literal_only_boolean_expressions
+    - no_duplicate_case_values
+    - throw_in_finally
+    - unnecessary_statements
+    - unrelated_type_equality_checks
+    - annotate_overrides
+    - avoid_unnecessary_containers
+    - avoid_void_async
+    - camel_case_extensions
+    - curly_braces_in_flow_control_structures
+    - empty_constructor_bodies
+    - file_names
+    - no_leading_underscores_for_local_identifiers
+    - null_closures
+    - parameter_assignments
+    - prefer_conditional_assignment
+    - prefer_final_fields
+    - prefer_null_aware_method_calls
+    - sized_box_for_whitespace
+    - sized_box_shrink_expand
+    - use_colored_box
+    - use_decorated_box
+    - unnecessary_await_in_return
+    - unnecessary_this
+    - unnecessary_new
+    - sort_child_properties_last
