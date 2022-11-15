@@ -6,7 +6,7 @@ A recruitment task using Pokemon API.
 
 Using https://pokeapi.co/ create an app that allows:
 
-- searching an app by name
+- searching a pokemon by name
 - displaying searched pokemon with an image and chosen properties
 - creating a list of favourites (mini image with a name) that allows sorting by dragging
 - add tests

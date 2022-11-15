@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pokemon_recruitment_task/features/pokemon/presentation/pages/pokemon_home_page.dart';
 import 'package:pokemon_recruitment_task/services/injection_container/injection_container.dart';
 
 void main() {
@@ -12,12 +13,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Pokemon Recruitment Task',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const SizedBox.shrink(),
+      home: PokemonHomePage(),
     );
   }
 }
