@@ -1,4 +1,4 @@
-name: weather_task_app
+name: pokemon_recruitment_task
 description: A recruitment task using Pokemon API.
 
 publish_to: 'none'
@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   cached_network_image: ^3.2.2
