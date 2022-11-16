@@ -2,7 +2,10 @@
 
 A recruitment task using Pokemon API.
 
-## Getting Started
+## Basic project showcase:
+https://user-images.githubusercontent.com/58911502/202127422-a74628c2-4a54-4a2e-b39e-90405c8d40e7.mov
+
+## Requirements
 
 Using https://pokeapi.co/ create an app that allows:
 
